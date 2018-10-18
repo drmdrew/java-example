@@ -8,4 +8,4 @@ jobs:
       - image: circleci/openjdk:11-jdk-node-browsers
     steps:
       - checkout
-      - run: gradle build
+      - run: gradle test
